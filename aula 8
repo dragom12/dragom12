@@ -1,0 +1,58 @@
+//Faça um Programa que converta metros para centímetros
+let valor_metros = prompt("Qual o valor de metros para conversão?")
+let valor_convertido = valor_metros* 100
+console.log( valor_convertido )
+
+//Faça um Programa que calcule a área de um quadrado, 
+//em seguida mostre o dobro desta área para o usuário
+let lateral_q = prompt("qual area latrea do quadrado ?")
+let valor_do_quadrado = lateral_q* lateral_q
+console.log(valor_do_quadrado* 2)
+
+//Faça um Programa que peça um valor e mostre
+//na tela se o valor é positivo ou negativo.
+let valor = prompt('digite um valor!!')
+if (valor < 0 ) {
+    console.log('valor digitado e negativo')
+} else {valor >= 0 
+    console.log ('valor digitado e positivo')
+}
+
+//Faça um Programa que pergunte em que turno você estuda.
+ //Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima
+ // a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa
+
+let matutino = m
+let Vespertino = v 
+let notrurno = n 
+let horario = prompt('Qual horario vc estuda m,v,n ?   ')
+if ( horario == m ) {
+console.log ('bom dia!!!')
+}else if (horario == v ) {
+console.log('boa tarde!!!')
+}else if ( horario == n ) {
+console.log("boa noite!!!")
+}
+
+//Faça um programa que peça uma nota, entre zero e dez.
+// Mostre uma mensagem caso o valor seja inválido e continue pedindo 
+//até que o usuário informe um valor válido.
+let numero = prompt("digite um numero de: 0 a 10")
+while (true) {
+    if( numero < 0  && numero > 10 ){
+    console.log('numero ivalido!!!');
+    break 
+ }else{console.log( numero );
+    tentetiva++
+
+     break } }
+     //Tamanho de strings. Faça um programa que leia 2 strings e informe o conteúdo delas seguido do seu comprimento. Informe também se as duas strings possuem o mesmo comprimento e são iguais ou diferentes no conteúdo.
+
+//Compara duas strings
+//String 1: Brasil Hexa 2006
+//String 2: Brasil! Hexa 2006!
+//Tamanho de "Brasil Hexa 2006": 16 caracteres
+//Tamanho de "Brasil! Hexa 2006!": 18 caracteres
+//As duas strings são de tamanhos diferentes.
+//As duas strings possuem conteúdo diferente.
+
